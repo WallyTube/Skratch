@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "Skratch",
+  "version": "${version}",
+  "name": "Skratch",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/ryan/Skratch"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/Skratch/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "me.wally.skratch.client.SkratchClient"
+    ],
+    "main": [
+      "me.wally.skratch.Skratch"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.17",
+    "fabric": "*",
+    "minecraft": "1.19.3",
+    "fabric-key-binding-api-v1": "*"
+  }
+}
