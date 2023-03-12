@@ -36,7 +36,7 @@ public class SkratchClient implements ClientModInitializer {
                     try {
                         bufRef.set(future.get(5, TimeUnit.SECONDS));
                     } catch (ExecutionException | TimeoutException | InterruptedException e) {
-                        client.player.sendMessage(Text.literal("Server didn't pong back."), false);
+                        client.player.sendMessage(Text.literal("Server didn't pong back :(."), false);
                     }
                 }).start();
 
